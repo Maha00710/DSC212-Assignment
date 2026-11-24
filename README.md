@@ -3,7 +3,7 @@
 Recursive spectral modularity partitioning implemented from scratch (NumPy + NetworkX) on Zachary's Karate Club network.
 
 ## Contents
-- `karate_modularity.ipynb`: the full notebook (code, outputs, visualisations, discussion)
+`karate_modularity.ipynb`: the full notebook (code, outputs, visualisations, discussion)
 ## What it does
 1. Builds the adjacency matrix A, degree vector k and modularity matrix B = A - kk^T/2m
 2. Splits by the sign of the leading eigenvector of B (verified against `networkx.community.modularity`)
