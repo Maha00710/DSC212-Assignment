@@ -4,14 +4,7 @@ Recursive spectral modularity partitioning implemented from scratch (NumPy + Net
 
 ## Contents
 - `karate_modularity.ipynb`: the full notebook (code, outputs, visualisations, discussion)
-- `requirements.txt`: Python dependencies
-
-## How to run
-```
-pip install -r requirements.txt
-jupyter notebook karate_modularity.ipynb   # then Kernel > Restart & Run All
-```
-
+- 
 ## What it does
 1. Builds the adjacency matrix A, degree vector k and modularity matrix B = A - kk^T/2m
 2. Splits by the sign of the leading eigenvector of B (verified against `networkx.community.modularity`)
@@ -21,3 +14,4 @@ jupyter notebook karate_modularity.ipynb   # then Kernel > Restart & Run All
 
 ## Reference
 Newman, M. E. J. (2006). Modularity and community structure in networks. PNAS 103(23), 8577-8582.
+Zachary, W. W. (1977). An information flow model for conflict and fission in small groups. Journal of Anthropological Research, 33(4), 452-473.
