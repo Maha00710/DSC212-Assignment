@@ -14,3 +14,5 @@ Recursive spectral modularity partitioning implemented from scratch (NumPy + Net
 ## References
 * Newman, M. E. J. (2006). Modularity and community structure in networks. PNAS 103(23), 8577-8582.
 * Zachary, W. W. (1977). An information flow model for conflict and fission in small groups. Journal of Anthropological Research, 33(4), 452-473.
+
+Disclaimer: Use of AI to aid, as permitted by the assignment
